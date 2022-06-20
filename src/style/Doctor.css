@@ -1,0 +1,222 @@
+.Doctor {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Doctor > .left {
+  width: 25%;
+  height: 100%;
+  color: var(--Black);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Doctor > .left > .card {
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 12px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Doctor > .left > .card > .profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Doctor > .left > .card > .profile > .photo {
+  width: 40px;
+  height: 40px;
+}
+
+.Doctor > .left > .card > .profile > .photo > img {
+  width: 100%;
+  height: 100%;
+}
+
+.Doctor > .left > .card > .profile > .address > .name {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--Black-dark);
+}
+
+.Doctor > .left > .card > .profile > .address > .place {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--Black);
+}
+
+.card > .designation {
+  margin: 7px;
+}
+
+.card > .designation > span {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--Black-dark);
+}
+
+.card > .designation > p {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--Black);
+}
+
+.card > .d-t {
+  margin: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card > .d-t span {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--Black);
+}
+
+.card > .d-t p {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--Black-dark);
+}
+
+.card > .connect {
+  margin: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card > .connect > .a {
+  font-size: 12px;
+  font-weight: 500;
+  background-color: white;
+  padding: 7px;
+  border-radius: 15px;
+}
+
+.card > .connect > .c {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card > .connect > .c > span {
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card > .connect > .c > span > img {
+  width: 50%;
+  height: 50%;
+}
+
+/* changes for second card */
+.left .two {
+  background-color: white !important;
+}
+
+.two > .connect > .a,
+.two > .connect > .c > span {
+  background-color: rgb(222, 222, 222);
+}
+
+/* right section */
+
+.bell {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+}
+.bell > img {
+  width: 60%;
+  height: 60%;
+}
+
+.right {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.right > .calendar {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  padding: 12px;
+}
+
+.right > .calendar > .dates {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right > .calendar > .dates > span {
+  background-color: white;
+  font-size: 12px;
+  font-weight: 500;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right > .examinations {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  padding: 12px;
+}
+
+.right > .examinations > p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right > .examinations > p > span {
+  color: #0da2ff;
+}
+
+.right > .examinations > .types {
+  margin: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right > .examinations > .types > .card {
+  background-color: white;
+  width: 30%;
+  padding: 10px;
+  border-radius: 15px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.right > .examinations > .types > .card > span {
+  font-weight: 600;
+}
+
+.right > .examinations > .types > .card > p {
+  font-size: 12px;
+  font-weight: 600;
+}
