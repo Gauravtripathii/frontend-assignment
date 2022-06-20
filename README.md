@@ -17,10 +17,10 @@
 
 ### Screenshot
 
-![](./screenshots/Screenshot-dashboard)
-![](./screenshots/Screenshot-doctor)
-![](./screenshots/Screenshot-contact)
-![](./screenshots/Screenshot-medicine)
+![](./screenshots/Screenshot-dashboard.png)
+![](./screenshots/Screenshot-doctor.png)
+![](./screenshots/Screenshot-contact.png)
+![](./screenshots/Screenshot-medicine.png)
 
 ## My Process
 
