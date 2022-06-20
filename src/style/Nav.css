@@ -29,11 +29,11 @@
 }
 
 .active {
-    background: white;
-    width: 80%;
-    height: 100%;
-    margin-left: 10%;
-    border-radius: 50px;
+  background: white;
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  border-radius: 50px;
 }
 
 .Nav .active > span {
