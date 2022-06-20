@@ -1,5 +1,44 @@
+:root {
+  --background-circle-diameter: 300px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* .App {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+} */
+
+.circle-bottom {
+  height: var(--background-circle-diameter);
+  width: var(--background-circle-diameter);
+  background-color: #ff6961;
+  border-radius: var(--background-circle-diameter) 0 0 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  filter: blur(15px);
+}
+
+.circle-top {
+  height: var(--background-circle-diameter);
+  width: var(--background-circle-diameter);
+  background-color: #663a82;
+  border-radius: 0 0 var(--background-circle-diameter) 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(15px);
+}
+
+.trans {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
 }
