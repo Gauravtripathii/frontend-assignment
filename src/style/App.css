@@ -1,5 +1,8 @@
 :root {
   --background-circle-diameter: 300px;
+  --Black: #202020;
+  --Black-dark: #000;
+  --Red: #ff6961;
 }
 
 * {
@@ -15,7 +18,7 @@ body {
 .circle-bottom {
   height: var(--background-circle-diameter);
   width: var(--background-circle-diameter);
-  background-color: #ff6961;
+  background-color: var(--Red);
   border-radius: var(--background-circle-diameter) 0 0 0;
   position: absolute;
   bottom: 0;

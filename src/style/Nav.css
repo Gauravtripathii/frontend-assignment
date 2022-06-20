@@ -3,3 +3,89 @@
   border-radius: 25px;
   width: 10%;
 }
+
+.Nav ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Nav li {
+  list-style-type: none;
+  height: 20%;
+  width: 100%;
+}
+
+.Nav a {
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.active {
+    background: white;
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    border-radius: 50px;
+}
+
+.Nav .active > span {
+  color: var(--Black);
+}
+
+.active span {
+  color: var(--Black-dark);
+  font-weight: 600;
+}
+
+/* icons */
+.img {
+  width: 24px;
+  height: 24px;
+}
+
+.da .img {
+  background-image: url(../media/icons/dashboard-passive.png);
+}
+
+.do .img {
+  background-image: url(../media/icons/doctor-passive.png);
+}
+
+.co .img {
+  background-image: url(../media/icons/contact-passive.png);
+}
+
+.me .img {
+  background-image: url(../media/icons/medicine-passive.png);
+}
+
+.da .img {
+  background-image: url(../media/icons/dashboard-passive.png);
+}
+
+/* for active links */
+.do .active > .img {
+  background-image: url(../media/icons/doctor-active.png);
+}
+
+.co .active > .img {
+  background-image: url(../media/icons/contact-active.png);
+}
+
+.me .active > .img {
+  background-image: url(../media/icons/medicine-active.png);
+}
+
+.da .active > .img {
+  background-image: url(../media/icons/dashboard-active.png);
+}
+
+/* end of links */
